@@ -72,13 +72,10 @@ Aşağıdakileri yapmak için cesitEkle işlevini kullanın:
   Örneğin: cesitEkle(orijinalTatlar, "Kakule") işlevi doğru çalıştığında ["Kakule", "Muz",..."Vanilya"] şeklinde dönmelidir
 */
 
-function cesitEkle(/*kod buraya*/){
-  /*kod buraya*/
-const yeniDizi = cesitEkle(orijinalTatlar, " Kakule ");
+const yeniDizi2 = cesitEkle(orijinalTatlar, " Kakule ");
 function cesitEkle(orijinalTatlar, yeniTat) {
   return [yeniTat, ...orijinalTatlar];
 }
-
 
 /* Cörev 4:
 
@@ -98,9 +95,7 @@ function sonCesitiKaldir(orijinalTatlar) {
   return orijinalTatlar;
 }
 
-
 console.log(yeniTat2);
-
 
 /* Görev 5:
 Dizideki belirli bir indeksteki çeşniyi döndüren bir işlev yazın.
@@ -124,7 +119,6 @@ const indeks = 9;
 const cesit = indekstekiCesitiGetir(orijinalTatlar, indeks);
 
 console.log(cesit);
-
 
 /* Görev 6:
 
@@ -204,7 +198,7 @@ function ortalamaKelimeSayisi(orijinalTatlar) {
 }
 
 const ortalama = ortalamaKelimeSayisi(orijinalTatlar);
-console.log(ortalama)
+console.log(ortalama);
 
 /* ALIŞTIRMA 2:
 Firma mevcut tatların yanında artık mevsimlik lezzetler ve hatta bölgesel lezzetler de sunmaktadır. Toplam 25 lezzet aromasını
