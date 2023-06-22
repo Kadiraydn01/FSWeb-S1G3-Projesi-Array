@@ -169,9 +169,9 @@ Aşağıdakileri yapmak için ismeGoreFiltrele işlevini kullanın:
   Bu sorunu çözmek için GELİŞMİŞ DİZİ YÖNTEMLERİNİ (yani .filter) KULLANMAYIN.
 */
 function ismeGoreFiltrele(tatlar, filtre) {
-  var filtrelenmisTatlar = [];
+  const filtrelenmisTatlar = [];
 
-  for (var i = 0; i < tatlar.length; i++) {
+  for (let i = 0; i < tatlar.length; i++) {
     if (tatlar[i].includes(filtre)) {
       filtrelenmisTatlar.push(tatlar[i]);
     }
@@ -179,6 +179,7 @@ function ismeGoreFiltrele(tatlar, filtre) {
 
   return filtrelenmisTatlar;
 }
+
 /* ALIŞTIRMA */
 
 /* ALIŞTIRMA 1: Bir dizideki ortalama kelime sayısını döndüren bir fonksiyon yazın. Bu işlevi orijinalTatlar dizisinde test etmelisiniz, ancak bunu herhangi bir dizi için de kullanabilmelisiniz.
